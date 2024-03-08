@@ -26,6 +26,8 @@ See [main.py](main.py) for further information and to understand all function ex
 - **Process**: Careful examination of each image to assign accurate emotional labels.
 - **Results**: Labels for the created images are available in [labels.csv](img/train/labels.csv).
 
+*The file [labeler.py](labeler.py) helps you to label images stored in your image folder. Progress is automatically saved. (Tested on Mac)*
+
 ### 3. Average Vector Calculation
 
 - **Objective**: Compute the average vector for each emotion based on the labels and corresponding vectors.
@@ -40,13 +42,21 @@ See [main.py](main.py) for further information and to understand all function ex
 
 
 ## Setup
+
+⚠️ **Warning:** *The following code was tested with a MacBook Pro, 2021 (M1) with 16 GB RAM. Make sure to run the code with similar or better CPU, GPU and RAM configurations.
+
 ### 1. Create Virtual Environment:
 
-1. Start this repository ⭐️
+0. Start this repository ⭐️
 
-2. Clone this repository
+1. Clone this repository:
     ```bash
     git clone git@github.com:bodejan/SmileGAN3.git
+    ```
+
+2. Navigate into the cloned repo:
+    ```bash
+    cd SmileGan3
     ```
 
 3. Create venv:
