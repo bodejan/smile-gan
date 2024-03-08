@@ -43,7 +43,7 @@ See [main.py](main.py) for further information and to understand all function ex
 
 ## Setup
 
-⚠️ **Warning:** *The following code was tested with a MacBook Pro, 2021 (M1) with 16 GB RAM. Make sure to run the code with similar or better CPU, GPU and RAM configurations.
+⚠️ **Warning:** *The following code was tested with a MacBook Pro, 2021 (M1) with 16 GB RAM. Make sure to run the code with similar or better CPU, GPU and RAM configurations.*
 
 ### 1. Create Virtual Environment:
 
